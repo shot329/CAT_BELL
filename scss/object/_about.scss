@@ -1,1 +1,19 @@
-// about
+.about {
+ background-image: url('../../img/home/about.jpg');
+ background-size: cover;
+ padding: 9.6rem 0 10rem 0;
+ .about-texts-wrapper {
+   margin: 4.5rem 0 8.4rem 42rem;
+   width: 47rem;
+   .about-copy {
+     font-size: 2rem;
+     font-weight: bold;
+     margin-bottom: 2.6rem;
+   }
+   .about-texts {
+     font-size: 1.6rem;
+     line-height: 2.4rem;
+     color: cl(gray);
+   }
+ }
+}

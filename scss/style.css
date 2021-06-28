@@ -23,6 +23,34 @@ img {
   padding: 0 1.5rem;
 }
 
+.cmn-section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cmn-section-title .section-jp-title {
+  font-size: 3.6rem;
+  font-weight: medium;
+  margin-bottom: 1.8rem;
+}
+
+.cmn-section-title .section-en-title {
+  font-size: 1.2rem;
+  color: #FF5F32;
+}
+
+.cmn-btn-wrapper .section-btn {
+  display: block;
+  width: 42rem;
+  margin: 5rem auto 0;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #FF5F32;
+  border: 1px solid #FF5F32;
+  border-radius: 3rem;
+}
+
 .header {
   width: 100%;
   position: fixed;
@@ -154,21 +182,6 @@ img {
   padding: 6rem 0 10rem 0;
 }
 
-.type .cmn-section-title {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.type .cmn-section-title .section-jp-title {
-  font-size: 3.6rem;
-  font-weight: medium;
-}
-
-.type .cmn-section-title .section-en-title {
-  font-size: 1.2rem;
-  color: #FF5F32;
-}
-
 .type .type-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,6 +199,12 @@ img {
   font-size: 1.8rem;
 }
 
+.type .type-list .type-item img:hover {
+  opacity: 0.7;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .type .type-list .type-item .type-name {
   margin-top: 2.6rem;
 }
@@ -194,15 +213,69 @@ img {
   margin-top: 5rem;
 }
 
-.type .cmn-btn-wrapper .section-btn {
-  display: block;
-  width: 42rem;
-  margin: 5rem auto 0;
-  padding: 1.5rem 0;
-  font-size: 1.8rem;
-  text-align: center;
-  color: #FF5F32;
-  border: 1px solid #FF5F32;
-  border-radius: 3rem;
+.blog {
+  background-color: #FAFAFA;
+  padding: 6rem 0 10rem 0;
+}
+
+.blog .blog-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .blog-list .blog-item {
+  width: calc((100% - 14.4rem)/4);
+}
+
+.blog .blog-list .blog-item img {
+  width: 20.8rem;
+  height: 20.8rem;
+  border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog .blog-list .blog-item img:hover {
+  opacity: 0.7;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.blog .blog-list .blog-item .blog-title {
+  font-size: 1.6rem;
+  margin-top: 2.8rem;
+}
+
+.blog .blog-list .blog-item .blog-date {
+  font-size: 1.2rem;
+  color: #9B9B9B;
+  margin-top: 1rem;
+}
+
+.about {
+  background-image: url("../../img/home/about.jpg");
+  background-size: cover;
+  padding: 9.6rem 0 10rem 0;
+}
+
+.about .about-texts-wrapper {
+  margin: 4.5rem 0 8.4rem 42rem;
+  width: 47rem;
+}
+
+.about .about-texts-wrapper .about-copy {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2.6rem;
+}
+
+.about .about-texts-wrapper .about-texts {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #5D5D5D;
 }
 /*# sourceMappingURL=style.css.map */

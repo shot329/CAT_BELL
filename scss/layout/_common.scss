@@ -3,3 +3,31 @@
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
+.cmn-section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  .section-jp-title {
+    font-size: 3.6rem;
+    font-weight: medium;
+    margin-bottom: 1.8rem;
+  }
+  .section-en-title {
+    font-size: 1.2rem;
+    color: cl(orange);
+  }
+}
+
+.cmn-btn-wrapper {
+  .section-btn {
+    display: block;
+    width: 42rem;
+    margin: 5rem auto 0;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+    color: cl(orange);
+    border: 1px solid cl(orange);
+    border-radius: 3rem;
+  }
+}
