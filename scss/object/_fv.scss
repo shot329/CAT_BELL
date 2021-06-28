@@ -1,0 +1,71 @@
+.fv {
+  background-color: cl(smoke);
+  position: relative;
+  z-index: -2;
+  height: 100vh;
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    background-image: url('../../img/home/mv.png');
+    background-size: cover;
+    width: 70%;
+    height: 85rem;
+  }
+  .fv-content-wrapper {
+    padding: 30rem 0 0 0;
+    .main-title {
+      font-size: 4.8rem;
+    }
+    .sub-title {
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+    .more-btn {
+      display: inline-block;
+      font-size: 1.8rem;
+      background-color: cl(orange);
+      color: cl(white);
+      width: 19.2rem;
+      padding: 1.6rem 0;
+      border-radius: 3rem;
+      text-align: center;
+      &:first-child {
+        margin-right: 0.8rem;
+      }
+    }
+  }
+  .news-wrapper {
+    margin-top: 15.2rem;
+    display: flex;
+    background-color: cl(white);
+    opacity: 0.7;
+    max-width: 98rem;
+    padding: 4rem 0 2rem 4rem;
+    border-radius: 1.6rem;
+    .news {
+      font-size: 1.8rem;
+      color: cl(orange);
+      margin-right: 3.2rem;
+    }
+    .news-list {
+      .news-item {
+        display: flex;
+        .news-date {
+          font-size: 1.4rem;
+          color: cl(gray);
+          margin-right: 2rem;
+        }
+        .news-title {
+          font-size: 1.6rem;
+          text-decoration: underline;
+        }
+        &:nth-child(n+2) {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
