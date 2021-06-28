@@ -1,0 +1,21 @@
+// COLORS
+// @inlcude cl(black);
+//--------------------------------------------------
+
+$colors: (
+  white: #fff,
+  black: #2C2C2C,
+  gray: #5D5D5D,
+	smoke: #FAFAFA, 
+	orange: #FF5F32,
+);
+
+@function cl($key) {
+	@return map-get($colors, $key);
+}
+
+@mixin overTab {
+	@media print,screen and (min-width: 768px) {
+		@content;
+	}
+}
