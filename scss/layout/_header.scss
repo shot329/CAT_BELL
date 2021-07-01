@@ -1,6 +1,12 @@
 .header {
   width: 100%;
   position: fixed;
+  z-index: 10;
+  &.header-bgc {
+    background-color: cl(white);
+    opacity: 0.8;
+    transition: .6s;
+  }
   .header-inner {
     display: flex;
     .site-logo {

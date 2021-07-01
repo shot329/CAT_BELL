@@ -1,1 +1,30 @@
 // footer
+.footer {
+  height: 13.2rem;
+  text-align: center;
+  .footer-inner {
+    display: flex;
+    line-height: 12rem;
+    max-width: 54rem;
+    margin: 0 auto;
+    .site-logo {
+      margin: 0.6rem 0 0 0;
+      width: 11.8rem;
+    }
+    .footer-nav {
+      .nav-list {
+        display: flex;
+        .nav-item {
+          font-size: 1.4rem;
+          font-weight: bold;
+          margin-left: 5.6rem;
+          // padding: 5.5rem 0 2.8rem 0;
+        }
+      }
+    }
+  }
+  small {
+    color: cl(gray2);
+    padding-bottom: 0.4rem;
+  }
+}

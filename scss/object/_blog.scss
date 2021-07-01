@@ -6,6 +6,12 @@
     justify-content: space-between;
     .blog-item {
       width: calc((100% - 14.4rem)/4);
+      padding: 1rem;
+      border-radius: 1rem;
+      &:hover {
+        background-color: cl(white);
+        transition: .3s;
+      }
       img {
         width: 20.8rem;
         height: 20.8rem;

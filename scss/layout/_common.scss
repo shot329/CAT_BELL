@@ -29,5 +29,11 @@
     color: cl(orange);
     border: 1px solid cl(orange);
     border-radius: 3rem;
+    transition: .6s;
+    &.change-btn {
+      background-color: cl(orange);
+      color: cl(white);
+      transition: .6s;
+    }
   }
 }
